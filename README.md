@@ -6,13 +6,13 @@ Data reporting with output in *.pdf
 ## Functionalities:
 
 Jupiter Anaconda
-- data upload from .csv
-- data inspection and results output in *.png
-- data reporting in output in *.pdf
+- data upload from data092020.csv
+- data inspection and results output in fig*.png
+- data reporting in output in report.pdf
 
 Pycharm professional and VENV terminal
 - automation of data reporting by use of *.py and linux terminal
-- quick output of resoluts by typing
+- quick output of resoluts (png and reports) by typing
 
 (venv) (base) monika@xxxx:/Pulpit/Analiza L$ python automated_data_analysis.py data1002020.csv report3.pdf
 
