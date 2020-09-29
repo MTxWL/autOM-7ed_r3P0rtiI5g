@@ -4,9 +4,13 @@
 Data reporting with output in *.pdf
 
 ## Functionalities:
+
+Jupiter Anaconda
 - data upload from .csv
 - data inspection and results output in *.png
 - data reporting in output in *.pdf
+
+Pycharm professional and VENV terminal
 - automation of data reporting by use of *.py and linux terminal
 - quick output of resoluts by typing
 
