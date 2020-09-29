@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 30px;
+	height: 600px;
+	background:white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    "titledata titledata titledata titledata"
+    "data1 data1 tab1 tab1"
+    "data2 data2 tab2 tab2";
+}
+.titledata {
+    grid-area: titledata;
+    padding: 5px;
+    background: #025496;
+    font-size: 30px;
+    color:white;
+    font-family: 'IBM Plex Sans',
+    sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid; }
+
+.data1 {
+    grid-area: data1;
+    background:#b3b9c8;
+    padding: 5px; font-size: 20px;
+    color:white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid; }
+
+.data2 {
+    grid-area: data2;
+    background:#b3b9c8;
+    padding: 5px; font-size: 20px;
+    color:white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid;
+}
+
+.tab1 {
+    grid-area: tab1;
+    background:white;
+    padding: 5px;
+    font-size: 30px;
+    color:black;;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid; }
+
+.tab2 {
+    grid-area: tab2;
+    background:white;
+    padding: 5px;
+    font-size: 30px;
+    color:black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: solid; }
+
